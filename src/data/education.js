@@ -17,7 +17,7 @@ export const education = [
     tag: "Completed",
   },
   {
-    institution: "Jawahar Navodaya Vidyalaya, Alwar",
+    institution: "Bright Future Secondary School",
     degree: "Class 10th",
     period: "Completed 2022",
     detail: "89.50%",
