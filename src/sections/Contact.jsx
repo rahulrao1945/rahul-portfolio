@@ -37,6 +37,8 @@ export default function Contact() {
           </p>
 
           <div className="mt-8 space-y-3">
+
+            {/* Gmail */}
             <a
               href="mailto:raorahul11123@gmail.com"
               className="flex items-center gap-3 px-4 py-3 rounded-xl border border-[var(--color-border)] hover:border-[var(--color-amber)]/40 transition-colors group"
@@ -46,10 +48,11 @@ export default function Contact() {
               </span>
 
               <span className="font-mono text-sm text-[var(--color-text-muted)] group-hover:text-[var(--color-text)]">
-                {profile.email}
+                raorahul11123@gmail.com
               </span>
             </a>
 
+            {/* LinkedIn */}
             <a
               href={linkedin.url}
               target="_blank"
@@ -65,6 +68,7 @@ export default function Contact() {
               </span>
             </a>
 
+            {/* GitHub */}
             <a
               href={github.url}
               target="_blank"
@@ -79,6 +83,7 @@ export default function Contact() {
                 github.com/rahulrao1945
               </span>
             </a>
+
           </div>
         </Reveal>
 
@@ -179,7 +184,8 @@ export default function Contact() {
                   type="submit"
                   className="w-full inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl bg-[var(--color-amber)] text-[#141005] text-sm font-semibold hover:brightness-110 transition"
                 >
-                  <Send size={15} /> Send Message
+                  <Send size={15} />
+                  Send Message
                 </button>
 
                 <p className="text-[11px] text-[var(--color-text-faint)] leading-relaxed">
