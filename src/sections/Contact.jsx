@@ -36,7 +36,7 @@ export default function Contact() {
 
           <div className="mt-8 space-y-3">
             <a
-              href={`mailto:${profile.email}`}
+              href={`mailto:${raorahul11123}`}
               className="flex items-center gap-3 px-4 py-3 rounded-xl border border-[var(--color-border)] hover:border-[var(--color-amber)]/40 transition-colors group"
             >
               <span className="grid place-items-center w-9 h-9 rounded-lg bg-[var(--color-surface-2)] text-[var(--color-amber)]">
